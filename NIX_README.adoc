@@ -1,0 +1,13 @@
+= Nix README
+
+This is a work in progress.
+
+== Building with Cargo and Nix Develop
+
+. `cd` into the project directory
+. `$ nix develop`
+. `[devshell]$ cargo build`
+
+`cargo run` and `cargo test` should also work.
+
+NOTE:: The current goal is to be able to do a build in a shell configured by `nix develop` on either Linux or macOS. In the future we hope to have a full support for a flake-based build.
